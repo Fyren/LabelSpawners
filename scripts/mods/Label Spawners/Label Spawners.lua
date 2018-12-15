@@ -79,8 +79,6 @@ mod.update = function(dt)
 	local camera = ScriptViewport.camera(viewport)
 
 	local spawner_system = Managers.state.entity:system("spawner_system")
-	local keys = ""
-	mod:info("update")
 	for sp, p in pairs(mod.spawners) do 
 		local position = Vector3(p[1], p[2], p[3])
 		local camera_pos = Camera.world_position(camera)
