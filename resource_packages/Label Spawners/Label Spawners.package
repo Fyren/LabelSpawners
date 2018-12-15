@@ -1,0 +1,11 @@
+mod = [
+	"Label Spawners"
+]
+
+package = [
+	"resource_packages/Label Spawners/Label Spawners"
+]
+
+lua = [
+	"scripts/mods/Label Spawners/*"
+]
